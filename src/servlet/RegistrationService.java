@@ -34,6 +34,7 @@ public class RegistrationService extends HttpServlet {
 			req.setAttribute("register", service.getRegister());
 			req.setAttribute("student", input);
 			RequestDispatcher dis = req.getRequestDispatcher("/WEB-INF/overview.jsp");
+			//We forward the result to another page (overview) instead of the calling page
 			dis.forward(req, resp);
 		} catch (Exception e) {
 			req.setAttribute("exception", e);
