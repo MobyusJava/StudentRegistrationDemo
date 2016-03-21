@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+body { 
+	font-family: Helvetica, Arial, Sans-Serif;
+	background: #c0c0c0; 
+}
+.logo {
+	color:red;
+}
+.logob {
+	color:blue;
+}
+#page-wrap { 
+	width: 960px;
+	margin: 40px auto;
+	overflow: hidden;
+}
+.error{
+	color: red;
+}
+.hidden{
+	display:none;
+}
